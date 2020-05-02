@@ -14,11 +14,6 @@ module.exports = {
      * @returns void
      */
     init(app) {
-        app.addHook('onRequest', (req, reply, done) => {
-            // eslint-disable-next-line global-require
-            req.io = require('socket.io')(app.server);
-            done();
-        });
         // connect socket.io
         app.use(
             bodyParser.urlencoded({

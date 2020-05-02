@@ -19,7 +19,6 @@ function getAllMessage() {
  * @returns Promise<MessageModel[]>
  */
 function saveMessageToDb(message, sender) {
-    console.log('save to db');
     return MessageModel.create({ sender, message });
 }
 
