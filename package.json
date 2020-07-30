@@ -14,7 +14,7 @@
     "compression": "1.7.4",
     "cookie-parser": "1.4.5",
     "cors": "2.8.5",
-    "fastify": "3.0.0-rc.1",
+    "fastify": "3.0.0",
     "fastify-auth": "^0.7.2",
     "helmet": "3.22.0",
     "middie": "5.0.0",
