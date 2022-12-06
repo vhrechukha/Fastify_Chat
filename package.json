@@ -10,17 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "1.19.0",
+    "body-parser": "1.20.1",
     "compression": "1.7.4",
     "cookie-parser": "1.4.5",
     "cors": "2.8.5",
     "fastify": "3.0.0-rc.1",
     "fastify-auth": "^0.7.2",
+    "helmet": "3.23.3",
     "helmet": "3.22.0",
-    "middie": "5.0.0",
     "mongoose": "5.13.15",
+    "middie": "5.4.0",
     "serve-static": "1.14.1",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {
     "commitizen": "^4.0.5",
